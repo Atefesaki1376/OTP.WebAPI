@@ -1,0 +1,11 @@
+@OTP.WebAPI_HostAddress = https://localhost:5001
+
+POST {{OTP.WebAPI_HostAddress}}/api/otp/request
+
+Accept: application/json
+
+###
+
+POST {{OTP.WebAPI_HostAddress}}/api/otp/verify
+
+Accept: application/json
