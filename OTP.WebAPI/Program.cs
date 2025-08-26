@@ -58,9 +58,10 @@ namespace OTP.WebAPI
                 });
             }
 
-            // Redirect root to Swagger (?Ç Scalar)
+            // for redirecting to swagger
             app.MapGet("/", () => Results.Redirect("/swagger"));
 
+            // for redirecting to scalar
             // app.MapGet("/", () => Results.Redirect("/scalar"));
 
 
